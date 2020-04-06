@@ -1,17 +1,31 @@
+// use std::collections::VecDeque;
 
-fn main() {
-    const QUEUE: [i32; 4] = [0; 4];
-    let mut pointer = 0;
 
-    fn enqueue(value:i32) {
-        pointer += 1;
-        QUEUE[pointer];
-    }
+// struct Queue {
+//     data: Vec<u32>,
+// }
 
-    fn dequeue() {
+// impl Default for Queue {
+//     fn default() -> Queue { 
+//        Queue { data: VecDeque::new() } 
+//     }
+// }
 
-    }
+// impl Queue {
+//     fn enqueue(&mut self, value: u32) {
+//         self.data.push_back(value);
+//         self.end += 1;
+//     }
 
-    enqueue(3);
-}
+//     fn dequeue(&mut self) -> u32 {
+//         self.data.pop_front(self.start)
+//     }
+// }
+
+// fn main() {
+//     let mut queue = Queue{..Default::default()};
+
+//     queue.enqueue(2);
+//     queue.dequeue();
+// }
 
