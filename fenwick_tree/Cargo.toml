@@ -1,5 +1,5 @@
 [package]
-name = "static_array_based_queue"
+name = "fenwick_tree"
 version = "0.1.0"
 authors = ["Lyr <ivelthoven@protonmail.com>"]
 edition = "2018"

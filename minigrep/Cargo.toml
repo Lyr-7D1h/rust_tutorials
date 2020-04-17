@@ -1,5 +1,5 @@
 [package]
-name = "single_linked_list"
+name = "minigrep"
 version = "0.1.0"
 authors = ["Lyr <ivelthoven@protonmail.com>"]
 edition = "2018"
